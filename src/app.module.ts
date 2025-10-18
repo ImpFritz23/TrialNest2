@@ -9,7 +9,7 @@ import { PositionsModule } from './positions/positions.module';
 // })
 
 @Module({
-  imports: [DatabaseModule],
+  imports: [DatabaseModule, UsersModule, AuthModule],
 })
 
 export class AppModule {}
