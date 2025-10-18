@@ -4,9 +4,9 @@ import { AuthModule } from './auth/auth.module';
 import { DatabaseModule } from './database/database.module';
 import { PositionsModule } from './positions/positions.module';
 
-// @Module({
-//   imports: [DatabaseModule, UsersModule, AuthModule, PositionsModule],
-// })
+@Module({
+  imports: [DatabaseModule, UsersModule, AuthModule, PositionsModule],
+})
 
 // @Module({
 //   imports: [DatabaseModule],
