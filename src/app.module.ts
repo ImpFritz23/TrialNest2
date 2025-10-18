@@ -8,8 +8,8 @@ import { PositionsModule } from './positions/positions.module';
 //   imports: [DatabaseModule, UsersModule, AuthModule, PositionsModule],
 // })
 
-@Module({
-  imports: [DatabaseModule],
-})
+// @Module({
+//   imports: [DatabaseModule],
+// })
 
 export class AppModule {}
